@@ -1,5 +1,5 @@
 
-public class AccountingArrayApp {
+public class AccountingArrayLoopApp {
 // 부가가치세를 책정하는 class.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,9 +17,7 @@ public class AccountingArrayApp {
 //		double rate3 = 0.2;
 		
 		double[] dividendRates = new double[3];
-		dividendRates[0] = 0.5;
-		dividendRates[0] = 0.3;
-		dividendRates[0] = 0.2;
+		
 		double dividend1 = income * dividendRates[0];
 		double dividend2 = income * dividendRates[1];
 		double dividend3 = income * dividendRates[2];
