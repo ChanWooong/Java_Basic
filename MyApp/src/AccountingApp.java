@@ -3,7 +3,8 @@ public class AccountingApp {
 // 부가가치세를 책정하는 class.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double valueOfSupply = 12345.0;
+		
+		double valueOfSupply = Double.parseDouble(args[0]); // Double.parseDouble = string type -> double type
 		double expenseRate = 0.3;
 		double vateRate = 0.1;
 		double vat = valueOfSupply * vateRate;
